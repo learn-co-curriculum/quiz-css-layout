@@ -135,5 +135,26 @@ resources: 0
 ( ) TRUE
 ( ) FALSE
 
+?: 21. Select the most appropriate CSS declaration to set an element to absolute positioning in the top right corner.
+
+( ) position: top right;
+( ) position: absolute; top: 0; right: 0;
+( ) position: absolute; top: 0; left: 0;
+( ) None of the above.
+
+?: 22. Fill in the blank: ________ positioning makes an element appear in the same place relative to the browser window even when scrolling occurs.
+
+( ) absolute
+( ) static
+( ) fixed
+( ) inherent
+
+?: 23. Fill in the blank: Elements with a _________ z-index will appear above other elements.
+
+( ) lower
+( ) higher
+( ) the same
+( ) negative
+
 ???
 
