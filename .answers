@@ -1,0 +1,63 @@
+## Answer Sheet
+
+1. **B**, Margin is the CSS property used to set the spacing outside of elements. For elements that display block margin is accepted on all sides, for elements that display inline the margin is only accepted on the left and right and not on the top and bottom.
+See video: [Box Model](http://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+2. **C**, Padding is the CSS property used to set spacing inside of elements. Padding is accepted on all sides of all elements including both elements that display inline and block.
+See video: [Box Model](http://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+3. **D**, Border is the CSS property used to set a stroke (outline) on the outside edge of an element. Border is accepted on all elements.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+4. **A**, padding: 5px; Specifying a single value applies equal padding to all sides of the element and is more efficient way to write then writing out separate padding for each side as four statements.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+5. **C**, padding: 10px 20px; Specifying two values sets the first value to be applied to the top and bottom and the second value to be applied to the left and right.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+6. **D**, padding: 35px 5px 10px; Specifying three values sets the first value to be applied to the top and the second to the left and right and the third to the bottom.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+7. **C**, padding: 10px 20px 25px 0; Specifying four values sets the first value to be applied to the top and the second value to the right and the third value to the bottom and the fourth value to the left.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+8. **B**, margin: 0 auto; Specifying two values sets the first value to top and bottom and the second value to left and right. Here we are setting the left and right value to auto which allows an equal amount of margin on both sides thus centering the element.
+See video: [Centering Content](http://www.youtube.com/watch?v=GWq7F49RdAg&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+9. **A**, TRUE, Elements with no height specified will simply grow as tall as they need to be to contain all of the content within it.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+10. **A**, TRUE, When a block level element has its overflow set to auto and the content within is taller than the specified height of the element scrollbars will appear.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+11. **B**, FALSE, Block level elements (ex: &lt;div&gt;) with no width specified (width: auto;) will scale horizontally as far as they are able to, until they run into their parent container.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+
+12. **A**, TRUE, Inline elements (ex: &lt;span&gt;) will not accept top and bottom margin or width applied to it.
+See video: [Element Display](http://www.youtube.com/watch?v=L7jPNZrjY0Q&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+
+13. **A**, TRUE, On regularly positioned elements margin will overlap (is not additive).
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+14. **D**, For block level elements (ex: &lt;div&gt;) they will scale as wide as they can if you specifiy width: 100%, width: auto, or id no width is specified.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+15. **B**, Setting a block level element to have a min-width and max-width allows the element to scale between those two values.
+See video: [Box Model](https://www.youtube.com/watch?v=x4sdDw77Uuw&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+16. **C**, Using the CSS display property allows us to change the way a particular element displays.
+See video: [Element Display](http://www.youtube.com/watch?v=L7jPNZrjY0Q&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+17. **A**, Floating an element to the left will allow elements that follow after (below) to pull up next to it on the right, assuming there is room for them to exist there.
+See video: [Floating](http://www.youtube.com/watch?v=mk-pPgG84YE&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+18. **D**, Floating an element to the right will allow elements that follow after (below) to pull up next to it on the left, assuming there is room for them to exist there.
+See video: [Floating](http://www.youtube.com/watch?v=mk-pPgG84YE&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+19. **A**, TRUE, The CSS clear property allows elements to control whether or not they appear below (clear past) the height of the floating elements above them. The clear property may be set to a value of none, left, right, or both.
+See video: [Floating](http://www.youtube.com/watch?v=mk-pPgG84YE&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
+
+20. **A**, TRUE, A special CSS class usually named clearfix can be applied to any elements that have floating children within that have a collapsing height.
+See video: [Floating](http://www.youtube.com/watch?v=mk-pPgG84YE&feature=share&list=PLj148bJp5wiw5VlVKdsXBXD0fQXpAupul)
