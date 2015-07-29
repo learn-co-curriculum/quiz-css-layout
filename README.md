@@ -1,9 +1,4 @@
----
-language: css
-tags: css, layout, positioning, float, box model
-type: quiz
-resources: 0
----
+
 
 ???
 
