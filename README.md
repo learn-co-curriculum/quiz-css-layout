@@ -108,7 +108,7 @@
 
 ?: 17. Select the most appropriate CSS declaration to position a &lt;div&gt; element so that other elements that follow after it may occupy space to the right of it.
 
-(x) float: left;
+(X) float: left;
 ( ) float: none;
 ( ) position: left;
 ( ) position: right;
