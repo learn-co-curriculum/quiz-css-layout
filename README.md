@@ -25,45 +25,40 @@
 ( ) `padding`
 (X) `border`
 
-?: Using CSS shorthand, select the most efficient declaration to accomplish: 5px of padding on all sides of an element.
+?: Select the CSS **shorthand** declaration that accomplishes the result of 5px of padding on all sides of an element.
 
 (X) `padding: 5px;`
 ( ) `padding-all-sides: 5px;`
 ( ) `padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;`
 ( ) `padding: 5px all;`
 
-?: Using CSS shorthand, select the most efficient declaration to accomplish: 10px of padding on the top and bottom and 20px on the left and right of an element.
+?: Select the CSS **shorthand** declaration that accomplishes the result of 10px of padding on the top and bottom and 20px on the left and right of an element.
 
 ( ) `padding-top-and-bottom: 20px; padding-left-and-right: 20px;`
 ( ) `padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding -right: 20px;`
 (X) `padding: 10px 20px;`
 ( ) `padding: 20px 10px;`
 
-?: Using CSS shorthand, select the most efficient declaration to accomplish: 35px of padding on the top, 5px on both sides (left & right), and 10px on the bottom.
+?: Select the CSS **shorthand** declaration that accomplishes the result of 35px of padding on the top, 5px on both sides (left & right), and 10px on the bottom.
 
 ( ) `padding-top: 35px; padding-left, padding-right: 5px; padding-bottom: 10px;`
 ( ) `padding: 35px 10px 5px;`
 ( ) `padding: 35px 10px 5px 10px;`
 (X) `padding: 35px 5px 10px;`
 
-?: Using CSS shorthand, select the most efficient declaration to accomplish: 10px of padding on top, 20px on the right, 25px on the bottom, and 0px on the left.
+?: Select the CSS **shorthand** declaration that accomplishes the result of 10px of padding on top, 20px on the right, 25px on the bottom, and 0px on the left.
 
 ( ) `padding-top: 10px; padding-right: 25px; padding-bottom: 25px; padding-left: 0;`
 ( ) `padding: 0px 25px 20px 10px;`
 (X) `padding: 10px 20px 25px 0;`
 ( ) `padding: 10px top 20px right 25px bottom 0 left;`
 
-?: Select the CSS declaration necessary to center an element (using spacing outside of the element).
+?: Select the CSS declaration that will center an element (using spacing outside of the element).
 
 ( ) `margin: auto 0;`
 (X) `margin: 0 auto;`
 ( ) `margin-all: auto;`
 ( ) `margin: center;`
-
-?: Not specifying a CSS `height` property for an element will allow it to stretch vertically based on the content within.
-
-(X) TRUE
-( ) FALSE
 
 ?: If an element set to `display: block;` has a specified `height` property, an `overflow` property set to `auto`, and content inside that is taller than the element's specified `height`, a scrollbar will appear.
 
@@ -75,7 +70,7 @@
 ( ) TRUE
 (X) FALSE
 
-?: If an element is set to `display: inline;`, it will not accept top or bottom margins or any `width` values applied to it.
+?: If an element is set to `display: inline;`, it will not apply top or bottom margins or any `width` values given to it.
 
 (X) TRUE
 ( ) FALSE
